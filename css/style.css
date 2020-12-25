@@ -1,0 +1,162 @@
+/* name selectors */
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0px auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #40514E;
+    line-height: 2;
+}
+
+hr {
+    border: dotted;
+    border-top: 5px;
+    border-width: 10px;
+    border-color: #EAF6F6;
+    width: 4%;
+    margin: 100px auto;
+}
+
+button {
+    border: 0px;
+    line-height: 2;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    background-color: #66BFBF;
+    color: #EAF6F6;
+}
+
+button:hover {
+    background-color: #EAF6F6;
+    color: #66BFBF;
+}
+
+/* class selectors */
+
+/* containers */
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    position: relative;
+    padding-top: 120px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    position: relative;
+    padding: 25px 0px;
+    margin: 50px auto 0px auto ;
+    
+}
+
+/* top container */
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+/* middle container */
+
+.profile {
+    width: 50%;
+    margin: 0px auto;
+    line-height: 2;
+}
+
+.my-image {
+    width: 25%;
+    margin: 30px auto;
+}
+
+.intro {
+    width: 30%;
+    margin: 0px auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 150px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.music-image {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.gaming-image {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.contact-me {
+    line-height: 2;
+}
+
+.contact-msg {
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+
+/* bottom container */
+
+.footer-link {
+    padding: 10px 20px;
+    color: #118b8f;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
+}
+
+.copyright {
+    margin: 0px auto;
+    color: #EAF6F6;
+    line-height: 2;
+    padding: 20px 0px 0px 0px;
+}
+/* id selectors */
